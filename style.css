@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 235, 0);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(96, 6, 160);
+    margin: 10px 0px;
+    font-size: 75px;
+}
+
+.game {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+    font-size: 120px;
+    color: rgb(242, 107, 15);
+    background-color: rgb(66, 66, 66);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    border: 1.5px solid orangered;
+}
+
+
+#reset-btn,
+#new-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(22, 196, 127);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#reset-btn:hover,
+#new-btn:hover {
+    transform: scale(1.05);
+}
+
+#msg {
+    color: rgb(143, 0, 255);
+    font-size: 75px;
+}
+
+.msg-container {
+    height: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.playerX {
+    background-color: #ffcccc;
+    color: #ff0000;
+}
+
+.playerO {
+    background-color: #ccccff;
+    color: #0000ff;
+}
+
+#scoreboard {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#scoreboard button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+#score-x
+{
+    background-color: tomato;
+    color: white;
+}
+#score-o
+{
+    background-color: tomato;
+    color: white;
+}

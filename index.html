@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="shortcut icon" href="Tic-Tac-Toe.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Container for winning message and New Game button -->
+    <div class="msg-container hide">
+        <p id="msg"></p>
+        <button id="new-btn">New Game</button>
+    </div>
+
+    <!-- Main Game Area -->
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+
+        <!-- Game Grid -->
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+
+        <!-- Reset Button-->
+        <button id="reset-btn">Reset</button>
+
+        <!-- Score Board -->
+        <div id="scoreboard">
+            <button id="score-x">X : 0</button>
+            <button id="score-o">O : 0</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
