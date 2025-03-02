@@ -29,9 +29,3 @@ A simple and interactive Tic-Tac-Toe game built using **HTML**, **CSS**, and **J
 
 **JavaScript** : For implementing game logic and interactivity.
 
-## Screenshots
-Here are some screenshots of the game:
-- Game Start
-  ![Tic-Tac-Toe Game](Screenshots/Game Start.png)
-- Player Win
-  ![Tic-Tac-Toe Game](Screenshots/Game Win.png)
